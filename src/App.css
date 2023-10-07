@@ -1,38 +1,119 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Lato:ital,wght@1,300&family=Roboto:wght@300&family=Rubik:ital@1&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Gabarito', cursive;
+}
+.navbar{
+  background-color: #000033;
+  padding: 1.5rem;
+}
+.logo{
+  width: 5%;
+  padding: 1rem 3rem;
+  position: absolute;
+}
+.info{
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.address , .contact, .cin{
+  opacity: 0.4;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+span{
+  padding-left: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.box1{
+  width: 50%;
+  border: 1px solid #000033;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading{
+  background-color: #000033;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.h-name{
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+.icon{
+  font-size: 2rem;
+  display: inline;
+}
+.flex{
+  display: flex;
+  margin: 1rem;
+}
+.box1 span{
+  opacity: 0.5;
+  font-size: 1.2rem;
+}
+.box2{
+  background-color: #000033;
+  width: 50%;
+  border-radius: 10px;
+}
+.login{
+  width: 50%;
+  height: 50%;
+  margin: 5rem ;
+  background-color: #fff;
+  padding: 3rem 6rem;
+  border-radius: 10px;
+}
+label{
+  color: #000033;
+}
+input{
+  margin: 0.8rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+.btn{
+  padding: 0.2rem 1rem;
+  width: 30%;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  background-color: #000033;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.b-name{
+  color: #000033;
+  margin-top: 1rem;
+}
+.pass{
+  margin-left: 14rem;
+}
+footer{
+  background-color: #000033;
+  padding: 1rem 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.b2-heading{
+  margin: 1rem 0;
+}
+footer p{
+  padding: 0.2rem 0;
+  cursor: pointer;
 }
