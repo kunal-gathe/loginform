@@ -98,6 +98,7 @@ input{
 .b-name{
   color: #000033;
   margin-top: 1rem;
+  text-align: center;
 }
 .pass{
   margin-left: 14rem;
